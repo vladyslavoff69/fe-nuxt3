@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BlogList > renders basic case correctly 1`] = `"<div class="flex flex-col lg:grid lg:grid-cols-3 gap-x-8 gap-y-16"></div>"`;
+
+exports[`BlogList > renders with props correctly 1`] = `"<div class="flex flex-col gap-y-16 w-full"></div>"`;

@@ -1,0 +1,46 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LandingTestimonial > renders basic case correctly 1`] = `
+"<div class="rounded-lg divide-y divide-gray-200 dark:divide-gray-800 ring-1 ring-gray-200 dark:ring-gray-800 shadow bg-white dark:bg-gray-900 relative">
+  <!--v-if-->
+  <div class="flex flex-col px-4 py-5 sm:p-6">
+    <div>
+      <!--v-if-->
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+  </div>
+  <!--v-if-->
+</div>"
+`;
+
+exports[`LandingTestimonial > renders with props correctly 1`] = `
+"<div class="rounded-lg divide-y divide-gray-200 dark:divide-gray-800 ring-1 ring-gray-200 dark:ring-gray-800 shadow bg-white dark:bg-gray-900 relative">
+  <!--v-if-->
+  <div class="flex flex-col px-4 py-5 sm:p-6">
+    <div>
+      <div class="mb-6 flex"><span class="i-simple-icons-google w-8 h-8 flex-shrink-0 text-gray-900 dark:text-white"></span></div><q class="text-gray-600 dark:text-gray-300">Aliquip irure laboris deserunt in dolore in consectetur ex duis. Mollit ad esse ipsum irure id veniam irure culpa dolore labore.</q>
+      <div class="flex items-center gap-3 mt-6 relative"><span class="relative inline-flex items-center justify-center flex-shrink-0 rounded-full h-10 w-10 text-base"><img class="rounded-full h-10 w-10 text-base" alt="Rose Roberson" src="https://i.pravatar.cc/120?img=1"><!--v-if--></span>
+        <div><a href="https://google.com" rel="noopener noreferrer" target="_blank" aria-label="Rose Roberson" class="focus:outline-none" tabindex="-1"><span class="absolute inset-0" aria-hidden="true"></span></a>
+          <p class="font-semibold text-gray-900 dark:text-white text-sm">Rose Roberson</p>
+          <p class="text-gray-500 dark:text-gray-400 text-sm">CEO at Google</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--v-if-->
+</div>"
+`;
+
+exports[`LandingTestimonial > renders with slots correctly 1`] = `
+"<div class="rounded-lg divide-y divide-gray-200 dark:divide-gray-800 ring-1 ring-gray-200 dark:ring-gray-800 shadow bg-white dark:bg-gray-900 relative">
+  <!--v-if-->
+  <div class="flex flex-col px-4 py-5 sm:p-6">
+    <div>
+      <div class="mb-6 flex">Icon slot</div><q class="text-gray-600 dark:text-gray-300">Quote slot</q>
+      <!--v-if-->
+    </div>
+  </div>
+  <!--v-if-->
+</div>"
+`;

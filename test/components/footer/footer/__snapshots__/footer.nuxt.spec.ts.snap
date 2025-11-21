@@ -1,0 +1,56 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer > renders basic case correctly 1`] = `
+"<footer class="relative">
+  <!--v-if-->
+  <div class="">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-8 lg:py-4 lg:flex lg:items-center lg:justify-between lg:gap-x-3">
+      <div class="lg:flex-1 flex items-center justify-center lg:justify-end gap-x-1.5 lg:order-3"></div>
+      <div class="mt-3 lg:mt-0 lg:order-2 flex items-center justify-center">
+        <!--v-if-->
+      </div>
+      <div class="flex items-center justify-center lg:justify-start lg:flex-1 gap-x-1.5 mt-3 lg:mt-0 lg:order-1"></div>
+    </div>
+  </div>
+</footer>"
+`;
+
+exports[`Footer > renders with props correctly 1`] = `
+"<footer class="relative">
+  <!--v-if-->
+  <div class="">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-8 lg:py-4 lg:flex lg:items-center lg:justify-between lg:gap-x-3">
+      <div class="lg:flex-1 flex items-center justify-center lg:justify-end gap-x-1.5 lg:order-3"></div>
+      <div class="mt-3 lg:mt-0 lg:order-2 flex items-center justify-center">
+        <ul class="flex flex-col md:flex-row items-center justify-center gap-4 lg:gap-6">
+          <li class="relative"><a class="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300" href="https://ui.nuxt.com/" rel="noopener noreferrer">Nuxt UI
+              <!--v-if-->
+            </a></li>
+          <li class="relative"><a class="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300" href="https://nuxt.com" rel="noopener noreferrer">Nuxt Docs
+              <!--v-if-->
+            </a></li>
+          <li class="relative"><a class="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300" href="https://nuxt.studio" rel="noopener noreferrer">Nuxt Studio
+              <!--v-if-->
+            </a></li>
+        </ul>
+      </div>
+      <div class="flex items-center justify-center lg:justify-start lg:flex-1 gap-x-1.5 mt-3 lg:mt-0 lg:order-1"></div>
+    </div>
+  </div>
+</footer>"
+`;
+
+exports[`Footer > renders with slots correctly 1`] = `
+"<footer class="relative">
+  <!--v-if-->
+  <div class="">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-8 lg:py-4 lg:flex lg:items-center lg:justify-between lg:gap-x-3">
+      <div class="lg:flex-1 flex items-center justify-center lg:justify-end gap-x-1.5 lg:order-3">Right slot</div>
+      <div class="mt-3 lg:mt-0 lg:order-2 flex items-center justify-center">
+        <!--v-if-->
+      </div>
+      <div class="flex items-center justify-center lg:justify-start lg:flex-1 gap-x-1.5 mt-3 lg:mt-0 lg:order-1">Left slot</div>
+    </div>
+  </div>
+</footer>"
+`;

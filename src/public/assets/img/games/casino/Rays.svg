@@ -1,0 +1,40 @@
+<svg width="1547" height="1548" viewBox="0 0 1547 1548" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path id="rotate-1" opacity="0.4" d="M773.984 773.774L724.465 0.274414H823.504L773.984 773.774ZM430.37 79.1279L344.599 128.68L773.984 773.774L430.37 79.1279ZM129.307 344.111L79.7869 429.938L773.984 773.774L129.307 344.111V344.111ZM0.984375 724.223V823.326L773.984 773.774L0.984375 724.223V724.223ZM79.7869 1117.61L129.307 1203.44L773.984 773.774L79.7869 1117.61ZM344.599 1418.87L430.37 1468.42L773.984 773.774L344.599 1418.87ZM724.465 1547.27H823.504L773.984 773.774L724.465 1547.27ZM1117.6 1468.42L1203.37 1418.87L773.984 773.774L1117.6 1468.42ZM1418.66 1203.44L1468.18 1117.61L773.984 773.774L1418.66 1203.44ZM1546.98 823.326V724.223L773.984 773.774L1546.98 823.326ZM1468.18 429.938L1418.66 344.111L773.984 773.774L1468.18 429.938ZM1203.37 128.68L1117.6 79.1279L773.984 773.774L1203.37 128.68V128.68Z" fill="url(#paint0_radial_247_1814)"/>
+  <g id="rotate-2">
+    <path opacity="0.17" fill-rule="evenodd" clip-rule="evenodd" d="M773.916 774.212L189.724 349.771L550.791 87.4959L773.918 774.211L773.916 774.212ZM997.061 87.4508L773.919 774.21L773.921 774.212L1358.08 349.798L997.061 87.4508ZM1496.02 774.213L773.922 774.213L773.921 774.215L1358.08 1198.63L1496.02 774.213ZM773.92 774.217L997.061 1460.98L550.79 1460.93L773.918 774.217L773.92 774.217ZM189.723 1198.66L773.916 774.216L773.915 774.214L51.8605 774.214L189.723 1198.66Z" fill="url(#paint1_radial_247_1814)"/>
+  </g>
+  <defs>
+    <style>
+      * {
+        transform-origin: center;
+      }
+
+      #rotate-1 {
+        animation: rotate 3s linear infinite;
+      }
+
+      #rotate-2 {
+        animation: rotate 20s linear infinite;
+      }
+
+      @keyframes rotate {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(-360deg);
+        }
+      }
+    </style>
+    </defs>
+      <defs>
+    <radialGradient id="paint0_radial_247_1814" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(772.997 774.392) rotate(134.968) scale(1092.41 1092.41)">
+    <stop offset="0.0677083" stop-color="#F7C95F"/>
+    <stop offset="0.541667" stop-color="#F7C95F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="paint1_radial_247_1814" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(773.27 775.055) rotate(115.55) scale(995.495 994.22)">
+    <stop offset="0.0677083" stop-color="#F7C95F"/>
+    <stop offset="0.541667" stop-color="#F7C95F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

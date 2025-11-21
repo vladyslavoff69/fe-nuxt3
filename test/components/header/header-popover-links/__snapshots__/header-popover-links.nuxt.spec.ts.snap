@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HeaderPopoverLinks > renders basic case correctly 1`] = `"<!--v-if-->"`;
+
+exports[`HeaderPopoverLinks > renders with props correctly 1`] = `
+"<div class="p-2 space-y-1"><a class="block px-2 py-1.5 rounded-md flex items-start gap-1.5 hover:bg-gray-100/50 dark:hover:bg-gray-800/50" href="/pro/pricing"><span class="i-heroicons-credit-card w-4 h-4 flex-shrink-0 mt-1"></span>
+    <p class=""><span class="font-semibold text-sm/6 inline-block relative">Pricing <!--v-if--></span><span class="text-sm leading-snug text-gray-500 dark:text-gray-400 line-clamp-2">A simple pricing, for solo developers or teams.</span></p>
+  </a><a class="block px-2 py-1.5 rounded-md flex items-start gap-1.5 hover:bg-gray-100/50 dark:hover:bg-gray-800/50" href="/pro/templates"><span class="i-heroicons-computer-desktop w-4 h-4 flex-shrink-0 mt-1"></span>
+    <p class=""><span class="font-semibold text-sm/6 inline-block relative">Templates <!--v-if--></span><span class="text-sm leading-snug text-gray-500 dark:text-gray-400 line-clamp-2">Get started with one of our official templates.</span></p>
+  </a><a class="block px-2 py-1.5 rounded-md flex items-start gap-1.5 hover:bg-gray-100/50 dark:hover:bg-gray-800/50" href="/pro/getting-started"><span class="i-heroicons-book-open w-4 h-4 flex-shrink-0 mt-1"></span>
+    <p class=""><span class="font-semibold text-sm/6 inline-block relative">Getting Started <!--v-if--></span><span class="text-sm leading-snug text-gray-500 dark:text-gray-400 line-clamp-2">Learn how to use Nuxt UI Pro in your app.</span></p>
+  </a><a class="block px-2 py-1.5 rounded-md flex items-start gap-1.5 hover:bg-gray-100/50 dark:hover:bg-gray-800/50" href="/pro/components"><span class="i-heroicons-cube w-4 h-4 flex-shrink-0 mt-1"></span>
+    <p class=""><span class="font-semibold text-sm/6 inline-block relative">Components <!--v-if--></span><span class="text-sm leading-snug text-gray-500 dark:text-gray-400 line-clamp-2">Discover all the components available in Nuxt UI Pro.</span></p>
+  </a></div>"
+`;

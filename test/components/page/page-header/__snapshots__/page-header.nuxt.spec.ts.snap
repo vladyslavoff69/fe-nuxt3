@@ -1,0 +1,51 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PageHeader > renders basic case correctly 1`] = `
+"<div class="relative border-b border-gray-200 dark:border-gray-800 py-8">
+  <!--v-if-->
+  <div class="flex flex-col lg:flex-row items-start gap-6">
+    <!--v-if-->
+    <div class="flex-1">
+      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between">
+        <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white tracking-tight"></h1>
+        <!--v-if-->
+      </div>
+      <!--v-if-->
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`PageHeader > renders with props correctly 1`] = `
+"<div class="relative border-b border-gray-200 dark:border-gray-800 py-8">
+  <div class="mb-3 text-sm/6 font-semibold text-primary flex items-center gap-1.5">Headline</div>
+  <div class="flex flex-col lg:flex-row items-start gap-6">
+    <div class="flex"><span class="i-heroicons-map w-10 h-10 flex-shrink-0 text-primary"></span></div>
+    <div class="flex-1">
+      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between">
+        <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white tracking-tight">Title</h1>
+        <div class="flex flex-wrap items-center gap-1.5 mt-4 lg:mt-0"><a class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 px-2.5 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-gray-700 text-gray-900 dark:text-white bg-white hover:bg-gray-50 disabled:bg-white dark:bg-gray-900 dark:hover:bg-gray-800/50 dark:disabled:bg-gray-900 focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center" href="https://github.com/nuxt/ui-pro/blob/dev/components/page/PageHeader.vue" rel="noopener noreferrer" target="_blank"><span class="i-simple-icons-github flex-shrink-0 h-5 w-5" aria-hidden="true"></span><span class="">GitHub</span>
+            <!--v-if-->
+          </a></div>
+      </div>
+      <p class="mt-4 text-lg text-gray-500 dark:text-gray-400">Description</p>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`PageHeader > renders with slots correctly 1`] = `
+"<div class="relative border-b border-gray-200 dark:border-gray-800 py-8">
+  <div class="mb-3 text-sm/6 font-semibold text-primary flex items-center gap-1.5">Headline slot</div>
+  <div class="flex flex-col lg:flex-row items-start gap-6">
+    <div class="flex">Icon slot</div>
+    <div class="flex-1">
+      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between">
+        <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white tracking-tight">Title slot</h1>
+        <div class="flex flex-wrap items-center gap-1.5 mt-4 lg:mt-0">Link slot</div>
+      </div>
+      <p class="mt-4 text-lg text-gray-500 dark:text-gray-400">Description slot</p>Default slot
+    </div>
+  </div>
+</div>"
+`;

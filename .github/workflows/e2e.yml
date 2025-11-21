@@ -1,0 +1,24 @@
+name: HyperExecute
+on:
+  workflow_dispatch:
+jobs:
+  HyperExecute:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
+
+      - name: Download CLI and Setting Environment Variables
+        shell: bash
+        run: |
+          curl https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute -o hyperexecute
+          chmod +x hyperexecute
+      
+      - name: Executing the Job
+        shell: bash
+        run: |
+          ./hyperexecute --user ${{ secrets.LTUSERNAME }} --key ${{ secrets.LTAPIKEY }} --download-artifacts --config config/hypertest.yml
+          echo "Test completion"

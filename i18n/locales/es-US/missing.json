@@ -1,0 +1,16 @@
+{
+  "an-unexpected-error": "Se produjo un error inesperado",
+  "estimated-balance": "Saldo estimado",
+  "go-back-to-home": "Volver a la página de inicio",
+  "instant-token-swap": "Intercambio instantáneo de fichas",
+  "oops": "Ups",
+  "please-check-internet": "Comprueba tu conexión a Internet.",
+  "something-went-wrong": "Algo Salió Mal",
+  "swap-tokens": "Tokens de intercambio",
+  "thank-you": "Gracias",
+  "total": "Total",
+  "verified-desc": "Se ha verificado tu dirección de correo electrónico.",
+  "verified-failed-desc": "Fallo en la verificación. Vuelva a intentarlo",
+  "weekly-bonus-message": "La espera ha terminado, haz clic aquí para reclamar tu bono semanal.",
+  "weekly-bonus-title": "¡Tu bono semanal está listo!"
+}

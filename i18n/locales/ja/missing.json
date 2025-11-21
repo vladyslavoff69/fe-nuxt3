@@ -1,0 +1,16 @@
+{
+  "an-unexpected-error": "予期しないエラーが発生しました",
+  "estimated-balance": "推定残高",
+  "go-back-to-home": "ホームページに戻る",
+  "instant-token-swap": "インスタントトークンスワップ",
+  "oops": "おっと",
+  "please-check-internet": "インターネットの接続を確認してください。",
+  "something-went-wrong": "何かがおかしくなった",
+  "swap-tokens": "スワップトークン",
+  "thank-you": "ありがとうございます",
+  "total": "Total",
+  "verified-desc": "メールアドレスが確認されました。",
+  "verified-failed-desc": "検証が失敗しました。もう一度試してください。",
+  "weekly-bonus-message": "待ち時間が終わりました。ここをクリックしてウィークリーボーナスを請求してください。",
+  "weekly-bonus-title": "ウィークリーボーナスの準備ができました！"
+}

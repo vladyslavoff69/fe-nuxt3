@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Page > renders basic case correctly 1`] = `
+"<div class="flex flex-col lg:grid lg:grid-cols-10 lg:gap-8">
+  <!--v-if-->
+  <div class="lg:col-span-10"></div>
+  <!--v-if-->
+</div>"
+`;
+
+exports[`Page > renders with slots correctly 1`] = `
+"<div class="flex flex-col lg:grid lg:grid-cols-10 lg:gap-8">
+  <div class="lg:col-span-2">Left slot</div>
+  <div class="lg:col-span-6">Default slot</div>
+  <div class="lg:col-span-2 order-first lg:order-last">Right slot</div>
+</div>"
+`;

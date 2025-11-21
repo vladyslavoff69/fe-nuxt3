@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ColorModeAvatar > renders basic case correctly 1`] = `
+"<span class="relative inline-flex items-center justify-center flex-shrink-0 bg-gray-100 dark:bg-gray-800 rounded-full h-8 w-8 text-sm dark:hidden"><!--v-if--><!--v-if--></span>
+<span class="relative items-center justify-center flex-shrink-0 bg-gray-100 dark:bg-gray-800 rounded-full h-8 w-8 text-sm hidden dark:block"><!--v-if--><!--v-if--></span>"
+`;
+
+exports[`ColorModeAvatar > renders with props correctly 1`] = `
+"<span class="relative inline-flex items-center justify-center flex-shrink-0 rounded-full h-8 w-8 text-sm dark:hidden"><img class="rounded-full h-8 w-8 text-sm" src="https://avatars.githubusercontent.com/u/739984?v=4"><!--v-if--></span>
+<span class="relative items-center justify-center flex-shrink-0 rounded-full h-8 w-8 text-sm hidden dark:block"><img class="rounded-full h-8 w-8 text-sm" src="https://avatars.githubusercontent.com/u/904724?v=4"><!--v-if--></span>"
+`;

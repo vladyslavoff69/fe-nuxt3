@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PageBody > renders basic case correctly 1`] = `"<div class="mt-8 pb-24"></div>"`;

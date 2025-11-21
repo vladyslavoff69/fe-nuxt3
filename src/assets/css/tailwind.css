@@ -1,0 +1,108 @@
+@import 'tailwindcss';
+@import '@nuxt/ui-pro';
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+@import 'swiper/css/scrollbar';
+@import './theme.css';
+@import './gradient-utilities.css';
+@import './scrollbars.css';
+@import './components/swiper.scss';
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@custom-variant hover (&:hover);
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+
+  body {
+    color: #ACCCAC;
+    @apply font-medium font-proximanova text-sm;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-white;
+  }
+}
+
+@utility jb-close-icon {
+  @apply text-white duration-150 hover:transform hover:-rotate-90 hover:transition-all hover:ease-in-out;
+}
+
+@utility j-label {
+  color: #ACCCAC;
+  @apply font-medium text-xs;
+}
+
+:root {
+  --media-cue-font-size: 14px;
+  --overlay-height: 100vh;
+  --overlay-padding: 12px;
+  --media-user-font-family: 'proxima-nova', sans-serif;
+  --header-height: 70px;
+  --ui-primary: var(--color-primary);
+  --ui-success: var(--color-primary);
+  --ui-error: var(--color-red-600);
+  --ui-warning: var(--color-orange-600);
+  --ui-info: var(--color-neutral-400);
+  --ui-neutral: var(--color-white);
+}
+
+.dark {
+  --ui-primary: var(--color-primary);
+  --ui-success: var(--color-primary);
+  --ui-error: var(--color-red-600);
+  --ui-warning: var(--color-orange-600);
+  --ui-info: var(--color-neutral-400);
+  --ui-secondary: var(--color-gray-600);
+  --ui-neutral: var(--color-white);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  background-color: transparent !important;
+  transition: background-color 5000s ease-in-out 0s, color 0s 600000s;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#crisp-chatbox > div > a[aria-label="Open chat"] {
+  display: none !important;
+}

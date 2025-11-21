@@ -1,0 +1,22 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LandingLogos > renders basic case correctly 1`] = `
+"<div class="text-center">
+  <!--v-if-->
+  <div class="mx-auto mt-10 flex flex-wrap items-center justify-between gap-8"></div>
+</div>"
+`;
+
+exports[`LandingLogos > renders with props correctly 1`] = `
+"<div class="">
+  <h2 class="text-lg font-semibold leading-8 text-gray-900 dark:text-white">Title</h2>
+  <div class="mx-auto mt-10 flex flex-wrap items-center justify-between gap-8"></div>
+</div>"
+`;
+
+exports[`LandingLogos > renders with slots correctly 1`] = `
+"<div class="text-center">
+  <!--v-if-->
+  <div class="mx-auto mt-10 flex flex-wrap items-center justify-between gap-8"></div>
+</div>"
+`;

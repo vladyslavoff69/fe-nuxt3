@@ -1,0 +1,24 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HeaderLinks > renders basic case correctly 1`] = `"<!--v-if-->"`;
+
+exports[`HeaderLinks > renders with props correctly 1`] = `
+"<ul class="flex items-center gap-x-8">
+  <li class="relative"><a class="text-sm/6 font-semibold flex items-center gap-1 hover:text-primary" href="/getting-started">Docs
+      <!--v-if-->
+    </a></li>
+  <li class="relative">
+    <!-- eslint-disable-next-line vue/no-template-shadow -->
+    <div class="relative" data-headlessui-state="">
+      <div class="inline-flex w-full" role="button" id="headlessui-popover-button-1" aria-expanded="false" data-headlessui-state=""><a class="text-sm/6 font-semibold flex items-center gap-1 hover:text-primary" href="/pro">Pro<span class="i-heroicons-chevron-down-20-solid w-5 h-5 transform transition-transform duration-200 flex-shrink-0"></span></a></div>
+      <!---->
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+    <div style="position: fixed; height: 0px; padding: 0px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0px; display: none;"></div>
+  </li>
+  <li class="relative"><a class="text-sm/6 font-semibold flex items-center gap-1 hover:text-primary" href="/releases">Releases
+      <!--v-if-->
+    </a></li>
+</ul>"
+`;

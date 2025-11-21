@@ -1,0 +1,43 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FooterColumns > renders basic case correctly 1`] = `
+"<div class="xl:grid xl:grid-cols-3 xl:gap-8">
+  <!--v-if-->
+  <div class="flex flex-col lg:grid grid-flow-col auto-cols-fr gap-8 xl:col-span-2"></div>
+  <!--v-if-->
+</div>"
+`;
+
+exports[`FooterColumns > renders with props correctly 1`] = `
+"<div class="xl:grid xl:grid-cols-3 xl:gap-8">
+  <!--v-if-->
+  <div class="flex flex-col lg:grid grid-flow-col auto-cols-fr gap-8 xl:col-span-2">
+    <div>
+      <h3 class="text-sm/6 font-semibold text-gray-900 dark:text-white">Community</h3>
+      <ul role="list" class="mt-6 space-y-4">
+        <li><a class="text-sm relative text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" href="https://nuxters.nuxt.com" rel="noopener noreferrer" target="_blank">Nuxters <span class="i-heroicons-arrow-up-right-20-solid w-3 h-3 absolute top-0.5 -right-3.5 text-gray-400 dark:text-gray-500"></span></a></li>
+        <li><a class="text-sm relative text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" href="https://masteringnuxt.com/nuxt3?ref=nuxt" rel="noopener noreferrer" target="_blank">Video Courses <span class="i-heroicons-arrow-up-right-20-solid w-3 h-3 absolute top-0.5 -right-3.5 text-gray-400 dark:text-gray-500"></span></a></li>
+        <li><a class="text-sm relative text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" href="https://github.com/nuxt" rel="noopener noreferrer" target="_blank">Nuxt on GitHub <span class="i-heroicons-arrow-up-right-20-solid w-3 h-3 absolute top-0.5 -right-3.5 text-gray-400 dark:text-gray-500"></span></a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-sm/6 font-semibold text-gray-900 dark:text-white">Solutions</h3>
+      <ul role="list" class="mt-6 space-y-4">
+        <li><a class="text-sm relative text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" href="https://content.nuxt.com/" rel="noopener noreferrer" target="_blank">Nuxt Content <span class="i-heroicons-arrow-up-right-20-solid w-3 h-3 absolute top-0.5 -right-3.5 text-gray-400 dark:text-gray-500"></span></a></li>
+        <li><a class="text-sm relative text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" href="https://devtools.nuxt.com/" rel="noopener noreferrer" target="_blank">Nuxt DevTools <span class="i-heroicons-arrow-up-right-20-solid w-3 h-3 absolute top-0.5 -right-3.5 text-gray-400 dark:text-gray-500"></span></a></li>
+        <li><a class="text-sm relative text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" href="https://image.nuxt.com/" rel="noopener noreferrer" target="_blank">Nuxt Image <span class="i-heroicons-arrow-up-right-20-solid w-3 h-3 absolute top-0.5 -right-3.5 text-gray-400 dark:text-gray-500"></span></a></li>
+        <li><a class="text-sm relative text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" href="https://ui.nuxt.com/" rel="noopener noreferrer" target="_blank">Nuxt UI <span class="i-heroicons-arrow-up-right-20-solid w-3 h-3 absolute top-0.5 -right-3.5 text-gray-400 dark:text-gray-500"></span></a></li>
+      </ul>
+    </div>
+  </div>
+  <!--v-if-->
+</div>"
+`;
+
+exports[`FooterColumns > renders with slots correctly 1`] = `
+"<div class="xl:grid xl:grid-cols-3 xl:gap-8">
+  <div class="mb-10 xl:mb-0">Left slot</div>
+  <div class="flex flex-col lg:grid grid-flow-col auto-cols-fr gap-8 xl:col-span-2"></div>
+  <div class="mt-10 xl:mt-0">Right slot</div>
+</div>"
+`;

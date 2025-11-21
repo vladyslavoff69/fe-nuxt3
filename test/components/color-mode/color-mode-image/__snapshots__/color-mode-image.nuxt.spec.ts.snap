@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ColorModeImage > renders basic case correctly 1`] = `
+"<img class="dark:hidden">
+<img class="hidden dark:block">"
+`;
+
+exports[`ColorModeImage > renders with props correctly 1`] = `
+"<img src="https://source.unsplash.com/random/200x200?sky" class="dark:hidden">
+<img src="https://source.unsplash.com/random/200x200?stars" class="hidden dark:block">"
+`;

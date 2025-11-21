@@ -1,0 +1,67 @@
+name: AI PR Summary
+
+permissions:
+  contents: read
+  pull-requests: write
+
+on:
+  pull_request:
+  pull_request_review_comment:
+    types: [created]
+
+concurrency:
+  group:
+    ${{ github.repository }}-${{ github.event.number || github.head_ref ||
+    github.sha }}-${{ github.workflow }}-${{ github.event_name ==
+    'pull_request_review_comment' && 'pr_comment' || 'pr' }}
+  cancel-in-progress: ${{ github.event_name != 'pull_request_review_comment' }}
+
+jobs:
+  review:
+    runs-on: ubuntu-latest-l
+    steps:
+      - name: AI PR Reviews & Summaries
+        uses: junglebet/ai-code-review@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        with:
+          debug: false
+          review_simple_changes: false
+          review_comment_lgtm: false
+          openai_heavy_model: gpt-4o
+          path_filters: |
+            !dist/**
+            !**/*.lock
+          system_message: |
+            You are `@CodeReview` (aka `github-actions[bot]`), a language model 
+            trained by OpenAI. Your purpose is to act as a highly experienced frontend
+            software engineer for a large scale casino site who provides a thorough review of the code hunks
+            and suggest code snippets to improve key areas such as:
+            - Logic
+            - Security
+            - Performance
+            - Data races
+            - Consistency
+            - Error handling
+            - Maintainability
+            - Modularity
+            - Complexity
+            - Optimization
+            - Code efficiency
+            - Best practices: DRY, SOLID, KISS
+            
+            Please don't comment on minor code style issues, or missing 
+            comments/documentation. Identify and resolve significant 
+            concerns to improve overall code quality while deliberately 
+            disregarding minor issues.
+            
+            {% if inputs.organization_practices %}
+            
+            Additionally, follow these organization-specific practices:
+            {{ inputs.organization_practices }}
+            {% endif %}
+            {% if inputs.project_type %}
+            
+            If the project type is {{ inputs.project_type }}, apply the relevant best practices and recommendations for {{ inputs.project_type }} projects.
+            {% endif %}

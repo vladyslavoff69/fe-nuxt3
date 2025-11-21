@@ -1,0 +1,1 @@
+export const CHAT_TEXT_LIMIT_LENGTH = 160

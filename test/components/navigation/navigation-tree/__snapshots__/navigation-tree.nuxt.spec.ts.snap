@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NavigationTree > renders basic case correctly 1`] = `"<!--v-if-->"`;
+
+exports[`NavigationTree > renders with props correctly 1`] = `"<!--v-if-->"`;

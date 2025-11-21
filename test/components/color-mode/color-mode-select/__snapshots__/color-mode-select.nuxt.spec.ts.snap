@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ColorModeSelect > renders basic case correctly 1`] = `
+"<div class="relative" data-headlessui-state="">
+  <!--v-if-->
+  <div id="headlessui-listbox-button-1" aria-haspopup="listbox" aria-expanded="false" role="button" class="inline-flex w-full" data-headlessui-state=""><button class="relative w-full disabled:cursor-not-allowed disabled:opacity-75 focus:outline-none border-0 inline-flex items-center text-left cursor-default rounded-md text-sm gap-x-1.5 px-2.5 py-1.5 shadow-sm bg-white dark:bg-gray-900 text-gray-900 dark:text-white ring-1 ring-inset ring-gray-300 dark:ring-gray-700 focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 ps-9 pe-9" type="button" id="nuid-1"><span class="absolute inset-y-0 start-0 flex items-center pointer-events-none px-2.5"><span class="i-heroicons-computer-desktop-20-solid flex-shrink-0 text-gray-400 dark:text-gray-500 h-5 w-5"></span></span><span class="truncate">System</span><span class="absolute inset-y-0 end-0 flex items-center pointer-events-none px-2.5"><span class="i-heroicons-chevron-down-20-solid flex-shrink-0 text-gray-400 dark:text-gray-500 h-5 w-5" aria-hidden="true"></span></span></button></div>
+  <!--v-if-->
+</div>"
+`;

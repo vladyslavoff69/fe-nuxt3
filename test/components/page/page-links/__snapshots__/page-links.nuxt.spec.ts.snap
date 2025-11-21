@@ -1,0 +1,28 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PageLinks > renders basic case correctly 1`] = `
+"<div class="space-y-3">
+  <!--v-if-->
+  <div class="space-y-3 lg:space-y-1.5"></div>
+</div>"
+`;
+
+exports[`PageLinks > renders with props correctly 1`] = `
+"<div class="space-y-3">
+  <p class="text-sm/6 font-semibold flex items-center gap-1.5">Title</p>
+  <div class="space-y-3 lg:space-y-1.5"><button type="button" class="flex items-center gap-1.5 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"><span class="i-heroicons-pencil-square w-5 h-5 flex-shrink-0"></span>
+      <!--v-if--><span class="text-sm/6 font-medium relative">Edit this page <!--v-if--></span>
+    </button><a class="flex items-center gap-1.5 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200" href="https://github.com/nuxt/ui" rel="noopener noreferrer" target="_blank"><span class="i-heroicons-star w-5 h-5 flex-shrink-0"></span>
+      <!--v-if--><span class="text-sm/6 font-medium relative">Star on GitHub <span class="i-heroicons-arrow-up-right-20-solid w-3 h-3 absolute top-0.5 -right-3.5 text-gray-400 dark:text-gray-500"></span></span>
+    </a><a class="flex items-center gap-1.5 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200" href="https://nuxt.com" rel="noopener noreferrer" target="_blank"><span class="i-heroicons-book-open w-5 h-5 flex-shrink-0"></span>
+      <!--v-if--><span class="text-sm/6 font-medium relative">Nuxt documentation <span class="i-heroicons-arrow-up-right-20-solid w-3 h-3 absolute top-0.5 -right-3.5 text-gray-400 dark:text-gray-500"></span></span>
+    </a></div>
+</div>"
+`;
+
+exports[`PageLinks > renders with slots correctly 1`] = `
+"<div class="space-y-3">
+  <p class="text-sm/6 font-semibold flex items-center gap-1.5">Title slot</p>
+  <div class="space-y-3 lg:space-y-1.5">Default slot</div>
+</div>"
+`;

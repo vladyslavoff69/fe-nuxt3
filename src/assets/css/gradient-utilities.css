@@ -1,0 +1,79 @@
+@utility bg-primary-gradient {
+  background-image: linear-gradient(180deg, #28A553 0%, #107031 100%);
+}
+
+@utility bg-secondary-gradient {
+  background-image: linear-gradient(180deg, #1D391D 0%, #021902 100%);
+}
+
+@utility bg-bet-gradient {
+  background-image: linear-gradient(28deg, #FAF23D 2.25%, #FCBE20 57.33%);
+}
+
+@utility bg-accent-gradient {
+  background-image: linear-gradient(330deg, #F5AC33 -2.54%, #F57000 86.22%);
+}
+
+@utility bg-warn-gradient {
+  background-image: linear-gradient(0deg, #FAF23D 2.25%, #FCBE20 57.33%);
+}
+
+@utility bg-card-gradient {
+  background-image: radial-gradient(113.1% 112.97% at 29.33% -11.08%, rgba(17, 40, 17, 0.53) 0%, rgba(19, 40, 19, 0.36) 66.51%, #112811 100%);
+}
+
+@utility bg-table-gradient {
+  background-image: linear-gradient(0deg, #021902db 5.06%, rgb(1 23 1 / 60%) 50.31%, rgba(1, 23, 1, 0.00) 96.7%);
+}
+
+@utility bg-mid-green-transparent-gradient {
+  background-image: linear-gradient(0deg, #112811 0%, rgba(17, 40, 17, 0.00) 70.14%);
+}
+
+@utility bg-plinko-8 {
+  background-image: linear-gradient(19deg, #FF0040 6.65%, #FF0040 100%);
+}
+
+@utility bg-plinko-7 {
+  background-image: linear-gradient(14deg, #FF0040 9.78%, #FE1B40 82.67%);
+}
+
+@utility bg-plinko-6 {
+  background-image: linear-gradient(31deg, #FE1B40 5.29%, #F67702 91.82%);
+}
+
+@utility bg-plinko-5 {
+  background-image: linear-gradient(205deg, #FD6C3F 0.44%, #F79E00 101.37%);
+}
+
+@utility bg-plinko-4 {
+  background-image: linear-gradient(180deg, #FC863E 0%, #F7BA00 100%);
+}
+
+@utility bg-plinko-3 {
+  background-image: linear-gradient(180deg, #F79F01 0%, #F7C700 100%);
+}
+
+@utility bg-plinko-2 {
+  background-image: linear-gradient(180deg, #FBBC3E 0%, #FBD73D 100%);
+}
+
+@utility bg-plinko-1 {
+  background-image: linear-gradient(180deg, #FBD73D 0%, #FAF23D 100%);
+}
+
+@utility bg-plinko-0 {
+  background-image: linear-gradient(28deg, #FAF23D 2.25%, #FAF23D 57.33%);
+}
+
+@utility bg-promo-gradient {
+  background-image: linear-gradient(76deg, #052205 17.74%, rgba(17, 40, 17, 0.70) 50.15%, rgba(17, 40, 17, 0.00) 80.16%);
+}
+
+@utility bg-auth-modal {
+  background-image: url('https://imagedelivery.net/PqUPeaOeGAxHB9FZtXllkg/990c86be-cae5-4f11-a763-716d84f0a200/public');
+}
+
+@utility bg-banner-vip {
+  background-image: url('https://imagedelivery.net/PqUPeaOeGAxHB9FZtXllkg/54137e4d-2646-4397-bbb6-9c28e1f76500/lg');
+}

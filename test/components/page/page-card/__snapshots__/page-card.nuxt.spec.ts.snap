@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PageCard > renders basic case correctly 1`] = `
+"<div class="rounded-lg divide-y divide-gray-200 dark:divide-gray-800 ring-1 ring-gray-200 dark:ring-gray-800 shadow bg-white dark:bg-gray-900 relative group">
+  <!--v-if-->
+  <div class="flex-1 px-4 py-5 sm:p-6"></div>
+  <!--v-if-->
+</div>"
+`;
+
+exports[`PageCard > renders with props correctly 1`] = `
+"<div class="rounded-lg divide-y divide-gray-200 dark:divide-gray-800 ring-1 ring-gray-200 dark:ring-gray-800 shadow bg-white dark:bg-gray-900 relative group">
+  <!--v-if-->
+  <div class="flex-1 px-4 py-5 sm:p-6">
+    <!--v-if-->
+    <div class="mb-6 flex"><span class="i-heroicons-map w-10 h-10 flex-shrink-0 text-primary"></span></div>
+    <p class="text-gray-900 dark:text-white text-base font-semibold truncate flex items-center gap-1.5">Title</p>
+    <p class="text-[15px] text-gray-500 dark:text-gray-400 mt-1">Description</p>
+  </div>
+  <!--v-if-->
+</div>"
+`;
+
+exports[`PageCard > renders with slots correctly 1`] = `
+"<div class="rounded-lg divide-y divide-gray-200 dark:divide-gray-800 ring-1 ring-gray-200 dark:ring-gray-800 shadow bg-white dark:bg-gray-900 relative group">
+  <div class="px-4 py-5 sm:px-6">Header slot</div>
+  <div class="flex-1 px-4 py-5 sm:p-6">
+    <!--v-if-->
+    <div class="mb-6 flex">Icon slot</div>
+    <p class="text-gray-900 dark:text-white text-base font-semibold truncate flex items-center gap-1.5">Title slot</p>
+    <p class="text-[15px] text-gray-500 dark:text-gray-400 mt-1">Description slot</p>Default slot
+  </div>
+  <div class="px-4 py-4 sm:px-6">Footer slot</div>
+</div>"
+`;
