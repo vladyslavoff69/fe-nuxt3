@@ -1,9 +1,0 @@
-const icons = '/assets/symbols/menu-bar.svg'
-export const AFFILIATE_ICON = `${icons}#affiliate`
-export const CALENDAR_ICON = `${icons}#CalendarIcon`
-export const MY_BETS_ICON = `${icons}#MyBetsIcon`
-export const ON_AIR_ICON = `${icons}#OnAirIcon`
-export const PLAYERS_CHARITY_ICON = `${icons}#playersCharity`
-export const PROMOTIONS_ICON = `${icons}#promotions`
-export const VIP_ICON = `${icons}#vip`
-export const FAVORITES_ICON = `${icons}#favoritesIcon`

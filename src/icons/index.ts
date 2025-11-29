@@ -1,6 +1,0 @@
-export * from '~/icons/socialIcons'
-export * from '~/icons/bases'
-export * from '~/icons/color-icons'
-export * from '~/icons/crypto-currencies'
-export * from '~/icons/layouts/layout-icons'
-export * from '~/icons/vip-levels/vip-levels-icons'

@@ -1,7 +1,0 @@
-export const NP_LINK_ICON: string = '#np-link-icon'
-export const TELEGRAM_ICON: string = '#telegram-icon'
-export const TWITTER_X_ICON: string = '#twitter-x-icon'
-export const INSTAGRAM_ICON: string = '#instagram-icon'
-export const FACEBOOK_ICON: string = '#facebook-icon'
-export const GOOGLE_FILL_ICON: string = '#google-fill-icon'
-export const GOOGLE_ICON: string = '#google-icon'

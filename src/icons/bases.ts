@@ -1,7 +1,0 @@
-export const CIRCLE_CHECK_ICON: string = '#circle-check-icon'
-export const BASE_CLOSE_ICON: string = '#base-close-icon'
-export const EXCHANGE_ICON: string = '#exchangeIcon'
-export const EXCHANGE_HORIZONTAL_ICON: string = '#exchangeHorizontalIcon'
-export const VAULT_TRANSPARENT_ICON: string = '#vault-transparent'
-export const FREE_SPIN_ICON: string = '#freeSpinIcon'
-export const MOON_PAY_LOGO_ICON: string = '#moon-pay-logo'
